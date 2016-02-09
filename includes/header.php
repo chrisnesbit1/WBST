@@ -16,6 +16,18 @@
 </div>
 <![endif]-->
 
+<div class="site-title">
+	<div class="container">
+	  <div class="row">
+	    <div class="col-sm-12">
+	      <h1 id="site-title">
+	      	<a class="text-muted" style="background: url(<?php print get_site_icon_url(); ?>) 0 0 no-repeat;background-size: 120px 120px;" href="<?php echo home_url('/'); ?>" title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>" rel="home"><?php bloginfo('name'); ?></a>
+	      </h1>
+	    </div>
+	  </div>
+	</div>
+</div>
+
 <nav class="navbar navbar-default navbar-static-top navbar-upper">
   <div class="container">
     <div class="navbar-header">
@@ -50,7 +62,7 @@
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
-
+<?php /*
 <div class="container">
   <div class="row">
     <div class="col-sm-12">
@@ -70,7 +82,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <?php /* <a class="navbar-brand" href="<?php echo home_url('/'); ?>"><?php bloginfo('name'); ?></a> */ ?>
+        <?php /* <a class="navbar-brand" href="<?php echo home_url('/'); ?>"><?php bloginfo('name'); ?></a> * / ? >
       </div><!-- /.navbar-header -->
       <div class="collapse navbar-collapse" id="navbar-lower">    
         <?php
@@ -93,3 +105,4 @@
       </div><!-- /.navbar-collapse -->
     </nav>
 </div>
+*/ ?>

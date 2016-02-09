@@ -6,7 +6,10 @@
   <hr/>
   <div class="row">
     <div class="col-lg-12 site-sub-footer">
-      <p>&copy; <?php echo date('Y'); ?> <a href="<?php echo home_url('/'); ?>"><?php bloginfo('name'); ?></a></p>
+      <p>
+        &copy; <?php echo date('Y'); ?> <a href="<?php echo home_url('/'); ?>"><?php bloginfo('name'); ?></a>
+        | Website by <a href='http://wplikeapro.com'>WP Like a Pro</a> &copy; <?php echo date('Y'); ?>
+      </p>
     </div>
   </div>
 </footer>
